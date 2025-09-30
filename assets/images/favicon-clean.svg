@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle - Metal color -->
+  <circle cx="16" cy="16" r="14" fill="#34495e" stroke="#2c3e50" stroke-width="1"/>
+
+  <!-- Anvil Shape -->
+  <g transform="translate(16, 16)">
+    <!-- Anvil base -->
+    <rect x="-5" y="6" width="10" height="4" fill="#2c3e50" rx="0.5"/>
+    <!-- Anvil body -->
+    <rect x="-6" y="0" width="12" height="6" fill="#95a5a6" rx="1"/>
+    <!-- Anvil face -->
+    <rect x="-7" y="-3" width="14" height="3" fill="#bdc3c7" rx="1"/>
+
+    <!-- Hammer at angle -->
+    <g transform="rotate(-30)">
+      <rect x="5" y="-0.8" width="8" height="1.6" fill="#8b4513" rx="0.8"/>
+      <rect x="4" y="-2" width="5" height="4" fill="#7f8c8d" rx="0.5"/>
+    </g>
+
+    <!-- Sparks -->
+    <circle cx="5" cy="-1" r="1" fill="#f39c12" opacity="0.8"/>
+    <circle cx="6" cy="-3" r="0.7" fill="#e67e22" opacity="0.9"/>
+    <circle cx="3" cy="0" r="0.5" fill="#f1c40f" opacity="0.7"/>
+  </g>
+</svg>
